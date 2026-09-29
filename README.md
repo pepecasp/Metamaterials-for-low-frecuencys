@@ -28,6 +28,9 @@ The `/openSCAD` directory includes the geometry of the 36-cell panel (6x6 matrix
 
 * **`resonator_36fields.stl`**: Full panel mesh.
 * **`resonador_36fields_transversal.stl`**: Cross-section of the panel, showing the cavities and necks.
+![Cross section of the 36-cell panel](openSCAD/cross_section.png)
+
+[View interactive 3D model (STL)](openSCAD/resonador_36fields_transversal.stl)
 
 ## 🛠️ 3. How to use this repository
 1. **Simulation A (duct with resonators):** run `matlab/helmholtz_panel_tl.m` to compute the Transmission Loss for different numbers of resonators (N) and regenerate `tl_comparison_n_resonators.png`.
