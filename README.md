@@ -17,7 +17,7 @@ A duct loaded with an array of Helmholtz resonators, evaluated with the Transfer
 ### 1.2 Simulation B: Graded cell panel
 A 6x6 panel of resonator cells, each tuned to a different frequency within 150–250 Hz. The design is based on a locally reactive surface topology, evaluating absorption for both normal incidence (Kundt's Tube) and diffuse field (Paris Formula / Sabine Coefficient).
 
-![Cell panel simulation](matlab/PANEL_IMAGE_NAME.png)
+![Cell panel simulation](matlab/panel_absobtion_36_fields.png)
 
 **Key results:**
 * Average absorption greater than $\alpha = 0.9$ in the target design range.
