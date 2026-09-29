@@ -18,13 +18,13 @@ The effect of coupling multiple resonators in series was evaluated using the Tra
 * Thermal and viscous efficiency maximized through geometric compliance tuning.
 
 ## 📐 2. 3D Parametric Model (OpenSCAD)
-The `/3d_model` directory includes the OpenSCAD source code used to generate the physical geometry of the panel via boolean subtraction, as well as the files ready for manufacturing and integration into simulation software.
+The `/openSCAD` directory includes the OpenSCAD source code used to generate the physical geometry of the panel via boolean subtraction, as well as the files ready for manufacturing and integration into simulation software.
 
 * **`full_panel.scad`**: Parametric script that generates the 6x6 cell matrix maintaining a constant footprint and adjusting the depth of the cavities based on the tuning vectors.
 * **`print_panel.stl`**: Exported mesh with a flat back face, ready for slicing and 3D printing (FDM/SLA).
 * **`fluid_domain.step`**: CAD solid that isolates the air volumes (cavities and necks), prepared for Finite Element Analysis (FEA/FEM) in multiphysics software (COMSOL, Ansys, or Elmer).
 
-*(Nota: Añade aquí la imagen del renderizado a color transversal: `![3D Cross Section](3d_section.png)`)*
+`![3D Cross Section](reonador_36fields_transversal.stl)`)*
 
 ## 🛠️ How to use this repository
 1. **Analytical calculation:** Run the main `.m` file in MATLAB to regenerate the depth vectors and absorption graphs.
