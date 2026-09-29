@@ -39,4 +39,4 @@ The `/openSCAD` directory includes the geometry of the 36-cell panel (6x6 matrix
 
 ---
 **Author:** Pepe Castillo
-**Project:** TrueSound / Bachelor's Thesis
+**Project:** Bachelor's Thesis / Sound and Image Engineering
