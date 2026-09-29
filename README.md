@@ -8,7 +8,10 @@ This project is part of the Bachelor's Thesis (TFG) in **Sound and Image Enginee
 The `/matlab` directory contains the scripts for calculating surface impedances and acoustic absorption. 
 The design is based on a locally reactive surface topology, evaluating absorption for both normal incidence (Kundt's Tube) and diffuse field (Paris Formula / Sabine Coefficient).
 
-*(Nota: Sube la imagen de Kundt vs Sabine a la carpeta raíz y cambia este texto por la ruta a la imagen, por ejemplo: `![Acoustic Absorption](graph.png)`)*
+### Transmission Loss & Array Effect
+The effect of coupling multiple resonators in series was evaluated using the Transfer Matrix Method. As illustrated below, increasing the number of resonators (N) significantly boosts the Transmission Loss (TL) around the target tuning frequency.
+
+![Transmission Loss - N Resonators](matlab/tl_comparison_n_resonators.png)
 
 **Key results:** 
 * Average absorption greater than $\alpha = 0.9$ in the target design range.
